@@ -1,0 +1,25 @@
+name: phoneusg
+description: AI Heart Sound Analyzer using ₹40 probe + phone mic
+version: 1.0.0
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  record: ^5.0.2
+  path_provider: ^2.1.1
+  tflite_flutter: ^0.10.4
+  permission_handler: ^11.0.0
+  flutter_spinkit: ^5.2.0
+  fft: ^0.2.0  # For audio preprocessing
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/model/murmur_classifier.tflite
+    - assets/model/labels.txt

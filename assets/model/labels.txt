@@ -1,4 +1,1 @@
-Normal
-Murmur
-S3
-S4
+Normal\nMurmur\nS3\nS4
