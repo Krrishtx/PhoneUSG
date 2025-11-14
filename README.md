@@ -1,1 +1,1 @@
-# PhoneUSG
+# PhoneUSG™ — AI Heart Scanner
